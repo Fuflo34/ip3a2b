@@ -1,0 +1,12 @@
+.intro{
+    margin-top: 50px;
+    background: url("../img/BlackFriday.jpg");
+    height: 500px;
+}
+
+
+@media (max-width: 530px) {
+    .intro{
+        height: 300px;
+    }
+  }

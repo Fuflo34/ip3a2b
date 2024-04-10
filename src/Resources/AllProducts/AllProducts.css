@@ -1,0 +1,8 @@
+.grid-product{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.Products-box{
+    margin-top: 20px;
+}

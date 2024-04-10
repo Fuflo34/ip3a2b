@@ -1,0 +1,41 @@
+.footer-box {
+    background: #222;
+    padding: 50px 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.box-contact{
+    display: block;
+}
+
+.footer-contacts-block {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 1100px) {
+    .footer-box {
+        background: #222;
+        padding: 50px 20px;
+    }
+}
+
+@media (max-width: 810px) {
+    .box-contact {
+        flex-direction: column;
+    }
+    
+    .Help{
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 530px) {
+    .footer-box{
+        text-align: left;
+        flex-direction: column;
+    }
+  }
